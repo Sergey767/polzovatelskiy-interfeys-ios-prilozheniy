@@ -49,7 +49,6 @@ class SwipePhotosController: UIViewController {
             self.rightImage.transform = .identity
             self.rightImage.image = UIImage(named: ImageFriend.getImage())
         })
-               
     }
     
     @objc func swipedRight(gesture: UISwipeGestureRecognizer) {

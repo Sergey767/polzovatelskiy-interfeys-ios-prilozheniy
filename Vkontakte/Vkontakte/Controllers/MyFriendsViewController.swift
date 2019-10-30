@@ -13,9 +13,6 @@ class MyFriendsViewController: UIViewController, UISearchBarDelegate {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
-    //MARK: - Properties
-    private let transitionAnimator = CustomAnimator()
-    
     var myFriends: [User] = [
         User(name: "Гомер", surname: "Симпсон", imageAvatar: "homerSimpson", imagePhoto: "homerSimpson2"),
         User(name: "Мардж", surname: "Симпсон", imageAvatar: "marjSimpson", imagePhoto: "marjSimpson2"),
@@ -135,16 +132,6 @@ extension MyFriendsViewController: UITableViewDataSource, UITableViewDelegate {
     
     func sectionIndexTitles(for tableView: UITableView) -> [String]? {
         return myFriendsSectionTitles
-    }
-}
-//MARK Transition protocol
-extension MyFriendsViewController: UIViewControllerTransitioningDelegate {
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return transitionAnimator
-    }
-    
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return transitionAnimator
     }
 }
 

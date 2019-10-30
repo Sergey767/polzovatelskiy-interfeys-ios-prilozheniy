@@ -95,19 +95,6 @@ extension NewsViewController: UITableViewDataSource, UITableViewDelegate {
             
             return cell
         }
-        /*else if indexPath.row == 4 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "UserNewsCell", for: indexPath) as!
-            UserNewsCell
-            
-            cell.label.text = "Лиза Симпсон"
-            
-            return cell
-        } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "CollectionNewsCell", for: indexPath) as! CollectionNewsCell
-            cell.collectionView.reloadData()
-            
-            return cell
-        }*/
             
     }
     

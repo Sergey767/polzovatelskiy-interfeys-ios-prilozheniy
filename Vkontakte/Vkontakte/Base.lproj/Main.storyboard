@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x7S-hc-fln">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -23,13 +23,13 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ВКонтакте" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHA-Ow-JOO">
-                                        <rect key="frame" x="125.66666666666669" y="20" width="163" height="36"/>
+                                        <rect key="frame" x="125.5" y="20" width="163" height="36"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                         <color key="textColor" red="0.8857758641242981" green="0.93127185106277466" blue="0.96622270345687866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email или телефон" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBs-PI-Wdt">
-                                        <rect key="frame" x="106.66666666666669" y="126" width="201" height="27"/>
+                                        <rect key="frame" x="106.5" y="126" width="201" height="27"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пароль" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KK9-Wl-y1G">
-                                        <rect key="frame" x="166.66666666666666" y="257" width="81" height="27"/>
+                                        <rect key="frame" x="166.5" y="257" width="81" height="27"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -135,14 +135,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DI5-yP-0Tf">
-                                            <rect key="frame" x="20" y="8" width="25" height="37.666666666666664"/>
+                                            <rect key="frame" x="20" y="8" width="25" height="37.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="8r7-gH-Sf4"/>
                                                 <constraint firstAttribute="width" constant="25" id="Vvm-9u-Upn"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8E-2S-OkE">
-                                            <rect key="frame" x="85" y="11.666666666666668" width="200" height="33.333333333333329"/>
+                                            <rect key="frame" x="85" y="11.5" width="200" height="33.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="CoW-SM-dWX"/>
                                                 <constraint firstAttribute="height" constant="21" id="f9c-Hk-ghD"/>
@@ -210,7 +210,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S93-sV-NPq">
-                                            <rect key="frame" x="85" y="11.666666666666666" width="200" height="21.333333333333336"/>
+                                            <rect key="frame" x="85" y="11.5" width="200" height="21.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="jyq-NF-rhG"/>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="u2L-79-zha"/>
@@ -220,7 +220,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NXc-we-gWk">
-                                            <rect key="frame" x="20" y="9.6666666666666661" width="25" height="25.333333333333336"/>
+                                            <rect key="frame" x="20" y="9.5" width="25" height="25.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="25" id="5DF-xx-nZp"/>
                                                 <constraint firstAttribute="height" constant="25" id="jUH-9W-BUY"/>
@@ -343,7 +343,7 @@
         <!--Swipe Photos Controller-->
         <scene sceneID="zrh-GP-rMc">
             <objects>
-                <viewController id="aHz-rp-QnO" customClass="SwipePhotosController" customModule="Vkontakte" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="aHz-rp-QnO" customClass="SwipePhotosController" customModule="Vkontakte" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k0r-QW-xIc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -384,7 +384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YRV-FS-j6N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7302.898550724638" y="-755.35714285714278"/>
+            <point key="canvasLocation" x="7652" y="-755"/>
         </scene>
         <!--Друзья-->
         <scene sceneID="YFG-xa-ITc">
@@ -449,7 +449,7 @@
                                                     <rect key="frame" x="20" y="8" width="25" height="36"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="flX-N4-5JV">
-                                                            <rect key="frame" x="0.0" y="5.6666666666666643" width="25" height="25"/>
+                                                            <rect key="frame" x="0.0" y="5.5" width="25" height="25"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="kwZ-xg-zFQ"/>
                                                                 <constraint firstAttribute="width" constant="25" id="tit-Kt-f48"/>
@@ -588,14 +588,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dyN-uR-2lH">
-                                                    <rect key="frame" x="20" y="8" width="25" height="38.666666666666664"/>
+                                                    <rect key="frame" x="20" y="8" width="25" height="38.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="25" id="NBo-LL-X5D"/>
                                                         <constraint firstAttribute="height" constant="25" id="P4A-BI-VAx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wz0-hj-vn5">
-                                                    <rect key="frame" x="85" y="25.666666666666671" width="200" height="20.333333333333329"/>
+                                                    <rect key="frame" x="85" y="25.5" width="200" height="20.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="hZH-xz-MPG"/>
                                                         <constraint firstAttribute="height" constant="20.5" id="znU-1n-rIn"/>
@@ -680,10 +680,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rpg-XL-gyk" customClass="VkButtons" customModule="Vkontakte" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="77.666666666666671"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="77.5"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqh-eb-vOd">
-                                                            <rect key="frame" x="96" y="24.999999999999996" width="25" height="32.666666666666657"/>
+                                                            <rect key="frame" x="96" y="25" width="25" height="32.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="Dl3-PJ-cn8"/>
                                                                 <constraint firstAttribute="width" constant="25" id="j8g-1o-sH6"/>
@@ -691,7 +691,7 @@
                                                             <state key="normal" title="Button" image="comments"/>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYC-wp-y0E">
-                                                            <rect key="frame" x="206" y="24.999999999999996" width="25" height="32.666666666666657"/>
+                                                            <rect key="frame" x="206" y="25" width="25" height="32.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="25" id="X6h-wo-bs8"/>
                                                                 <constraint firstAttribute="height" constant="25" id="aYK-Mt-V6u"/>
@@ -699,7 +699,7 @@
                                                             <state key="normal" title="Button" image="views"/>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="38" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKL-kJ-bBF">
-                                                            <rect key="frame" x="256" y="22.666666666666668" width="25" height="32.333333333333329"/>
+                                                            <rect key="frame" x="256" y="22.5" width="25" height="32.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="LeY-tF-i60"/>
                                                                 <constraint firstAttribute="width" constant="25" id="s2O-02-Dc3"/>
@@ -709,7 +709,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRf-cM-Lst">
-                                                            <rect key="frame" x="146" y="24.999999999999996" width="25" height="32.666666666666657"/>
+                                                            <rect key="frame" x="146" y="25" width="25" height="32.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="Kca-3l-2Cb"/>
                                                                 <constraint firstAttribute="width" constant="25" id="eST-5B-t4l"/>
@@ -717,7 +717,7 @@
                                                             <state key="normal" title="Button" image="share"/>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OH-9H-Bvg">
-                                                            <rect key="frame" x="32" y="24.999999999999996" width="25" height="32.666666666666657"/>
+                                                            <rect key="frame" x="32" y="25" width="25" height="32.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="25" id="FEu-cT-BeV"/>
                                                                 <constraint firstAttribute="height" constant="25" id="whD-hO-jwZ"/>
