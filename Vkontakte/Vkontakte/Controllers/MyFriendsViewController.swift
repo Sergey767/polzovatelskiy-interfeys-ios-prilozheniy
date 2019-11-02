@@ -126,6 +126,23 @@ extension MyFriendsViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath) as! MyFriendsCell
+        
+         let animation = CASpringAnimation(keyPath: "transform.scale")
+                      animation.fromValue = 0
+                      animation.toValue = 0.5
+                      animation.duration = 0.3
+                      animation.damping = 0.5
+                      animation.initialVelocity = 0
+                      animation.stiffness = 200
+                      animation.mass = 2
+                      animation.fillMode = CAMediaTimingFillMode.backwards
+                      animation.isRemovedOnCompletion = false
+        cell.circularAvatarView.imageAvatar.layer.add(animation, forKey: nil)
+    }
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return myFriendsSectionTitles[section]
     }
