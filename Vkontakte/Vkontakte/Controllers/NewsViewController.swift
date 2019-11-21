@@ -72,14 +72,10 @@ extension NewsViewController: UITableViewDataSource, UITableViewDelegate {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ButtonsCell", for: indexPath) as!
                 ButtonsCell
             
-            cell.self.likeView.addTarget(self, action: #selector(sendLikeToServer), for: .valueChanged)
-            
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "LoadingIndicatorCell", for: indexPath) as!
             LoadingIndicatorCell
-            
-            cell.self.loadingIndicatorView.addTarget(self, action: #selector(sendLoadingToServer), for: .valueChanged)
             
             UIView.animateKeyframes(withDuration: 1, delay: 0, options: .repeat, animations: {
                 UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.6) {
@@ -96,14 +92,6 @@ extension NewsViewController: UITableViewDataSource, UITableViewDelegate {
             return cell
         }
             
-    }
-    
-    @objc func sendLikeToServer() {
-        print("Like")
-    }
-    
-    @objc func sendLoadingToServer() {
-        
     }
 }
 

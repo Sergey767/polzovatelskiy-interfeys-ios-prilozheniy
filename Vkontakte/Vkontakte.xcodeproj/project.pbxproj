@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		454B8DD2232D194F0074DA04 /* ButtonsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454B8DD1232D194F0074DA04 /* ButtonsCell.swift */; };
-		456AE2E02333EE46001F42B5 /* VkButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AE2DF2333EE46001F42B5 /* VkButtons.swift */; };
+		456AE2E02333EE46001F42B5 /* LikeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456AE2DF2333EE46001F42B5 /* LikeControl.swift */; };
 		456EA0A523436539000543C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456EA0A423436538000543C8 /* Assets.xcassets */; };
 		457A832C234C857E00525DF1 /* LoadingIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A832B234C857E00525DF1 /* LoadingIndicatorCell.swift */; };
 		45C23BAC234CA75500E06E8B /* LoadingIndicatorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C23BAB234CA75500E06E8B /* LoadingIndicatorControl.swift */; };
@@ -35,11 +35,12 @@
 		8766FAB12358D94F00A72C06 /* ImageFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8766FAB02358D94F00A72C06 /* ImageFriend.swift */; };
 		87700B58235E6A3D0057EBF5 /* CustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87700B57235E6A3D0057EBF5 /* CustomAnimator.swift */; };
 		877E8C81235F3F240061052D /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877E8C80235F3F240061052D /* CustomNavigationController.swift */; };
+		87E75894237C2911009BC617 /* VkButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E75893237C2911009BC617 /* VkButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		454B8DD1232D194F0074DA04 /* ButtonsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsCell.swift; sourceTree = "<group>"; };
-		456AE2DF2333EE46001F42B5 /* VkButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkButtons.swift; sourceTree = "<group>"; };
+		456AE2DF2333EE46001F42B5 /* LikeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControl.swift; sourceTree = "<group>"; };
 		456EA0A423436538000543C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		457A832B234C857E00525DF1 /* LoadingIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorCell.swift; sourceTree = "<group>"; };
 		45C23BAB234CA75500E06E8B /* LoadingIndicatorControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorControl.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		8766FAB02358D94F00A72C06 /* ImageFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFriend.swift; sourceTree = "<group>"; };
 		87700B57235E6A3D0057EBF5 /* CustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimator.swift; sourceTree = "<group>"; };
 		877E8C80235F3F240061052D /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		87E75893237C2911009BC617 /* VkButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +156,9 @@
 		874003B72366EED30004A4FA /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				456AE2DF2333EE46001F42B5 /* VkButtons.swift */,
+				456AE2DF2333EE46001F42B5 /* LikeControl.swift */,
 				45C23BAB234CA75500E06E8B /* LoadingIndicatorControl.swift */,
+				87E75893237C2911009BC617 /* VkButtons.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -261,13 +264,14 @@
 				45FFA57323252ADA0035CA60 /* TextNewsCell.swift in Sources */,
 				45FFA56E2324F7090035CA60 /* NewsViewController.swift in Sources */,
 				4B9968B62307C227001869E9 /* CircularAvatarView.swift in Sources */,
-				456AE2E02333EE46001F42B5 /* VkButtons.swift in Sources */,
+				456AE2E02333EE46001F42B5 /* LikeControl.swift in Sources */,
 				4BDA954822C7F41900A9E008 /* PhotoCollectionViewController.swift in Sources */,
 				4B0FA39F22D8D17000401B87 /* GroupModel.swift in Sources */,
 				45FFA57523252B2D0035CA60 /* ImageNewsCell.swift in Sources */,
 				4B3641F4231185AC0001535C /* MyFriendsViewController.swift in Sources */,
 				87280A7B2356604300111D0F /* SwipePhotosController.swift in Sources */,
 				4B0FA39722D7851600401B87 /* PhotoCell.swift in Sources */,
+				87E75894237C2911009BC617 /* VkButtons.swift in Sources */,
 				87700B58235E6A3D0057EBF5 /* CustomAnimator.swift in Sources */,
 				45FFA57123252A9C0035CA60 /* GroupNewsCell.swift in Sources */,
 				877E8C81235F3F240061052D /* CustomNavigationController.swift in Sources */,
