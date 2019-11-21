@@ -12,8 +12,9 @@ class ButtonsCell: UITableViewCell {
     
     static let reuseIdentifier = "ButtonsCell"
     
+    @IBOutlet weak var buttonView: VkButtons!
     @IBOutlet weak var likeView: VkButtons!
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

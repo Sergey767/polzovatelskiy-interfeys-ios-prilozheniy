@@ -10,14 +10,14 @@ import UIKit
 
 class LaunchControllerVk: UIViewController {
     
-    //MARK: - Outlets
+    // MARK: - Outlets
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var vkontakteLabel: UILabel!
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    //MARK: - Actions
+    // MARK: - Actions
     
     @IBAction func unwindSegue(unwindSegue: UIStoryboardSegue) {
     }
@@ -43,7 +43,7 @@ class LaunchControllerVk: UIViewController {
         }
     }
     
-    //MARK: - Life cycle
+    // MARK: - Life cycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +68,7 @@ class LaunchControllerVk: UIViewController {
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
-    //MARK: - Keyboard
+    // MARK: - Keyboard
     
     @objc func keyboardWasShown(notification: Notification) {
         let info = notification.userInfo! as NSDictionary
@@ -90,6 +90,5 @@ class LaunchControllerVk: UIViewController {
         self.scrollView.endEditing(true)
     }
     
-    //MARK: - Segues
-    
+    // MARK: - Segues
 }

@@ -17,6 +17,8 @@ class SwipePhotosController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.clipsToBounds = true
+        
         centralImage.image = UIImage(named: ImageFriend.getImage())
         leftImage.image = UIImage(named: ImageFriend.getImage())
         rightImage.image = UIImage(named: ImageFriend.getImage())
